@@ -1,14 +1,15 @@
 {
     "name": "UIWidgetsSample",
     "references": [
-        "Unity.UIWidgets"
+        "Unity.UIWidgets",
+        "RSG"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": []
 }

@@ -16,6 +16,8 @@ namespace RSG
         /// Gets the id of the promise, useful for referencing the promise during runtime.
         /// </summary>
         int Id { get; }
+        
+        bool isCompleted { get;  }
 
         /// <summary>
         /// Set the name of the promise, useful for debugging.
@@ -225,6 +227,8 @@ namespace RSG
         /// The exception when the promise is rejected.
         /// </summary>
         private Exception rejectionException;
+        
+        public bool isCompleted { get;  }
 
         /// <summary>
         /// The value when the promises is resolved.

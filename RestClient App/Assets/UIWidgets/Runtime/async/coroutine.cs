@@ -22,7 +22,7 @@ namespace Unity.UIWidgets.async {
         internal volatile Exception lastError;
         internal bool isDone;
 
-        readonly Promise<object> _promise = new Promise<object>(isSync: true);
+        readonly Promise<object> _promise = new Promise<object>();
 
         public IPromise<object> promise {
             get { return this._promise; }
